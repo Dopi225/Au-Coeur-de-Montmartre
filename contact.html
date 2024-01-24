@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - AU coeur de Montmartre</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+</head>
+<body>
+    <header>
+                      
+            <a href="#" alt=""><img src="image/AU COEUR DE MONTMARTRE.png" alt="logo" ></a>
+            <div class="container-header">
+              <nav class="search-nav"> 
+                <ul>
+                  
+                  <li><a href="index.html">Accueil</a></li>
+                  
+                  <li><a href="presentation.html">Présentation</a></li>
+                    <li><a href="quartier.html">Quartier</a></li>
+                    <li><a href="actualites.html">Actualités</a></li>
+                    <li class="arrow"></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <div class="social-links">
+                            <a href="#" title="Facebook"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#191a1a}</style><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
+                            <a href="#" title="Twitter">T</a>
+                            <a href="#" title="Instagram">I</a>
+                          </div>
+                    </li>
+                </ul>
+              </nav>
+              <div class="search">
+                <span class="icon"><i class="fa fa-search"></i></span>
+                <input class="searchbar" type="text" placeholder="Recherchez..." />
+              </div>
+              
+            </div>
+          
+    </header>
+    <main>
+        <section>
+            
+            <div class="main-container">
+              <h1 >Reservation</h1>
+                <div class="formbold-main-wrapper">
+                    <div class="formbold-form-wrapper">
+                      <form action="#" method="POST">
+                        <div class="flex flex-wrap formbold--mx-3">
+                          <div class="w-full sm:w-half formbold-px-3">
+                            <div class="formbold-mb-5">
+                              <label for="fName" class="formbold-form-label"> Nom </label>
+                              <input type="text" name="fName" id="fName" placeholder="Nom" class="formbold-form-input" />
+                            </div>
+                          </div>
+                          <div class="w-full sm:w-half formbold-px-3">
+                            <div class="formbold-mb-5">
+                              <label for="lName" class="formbold-form-label"> Prénom</label>
+                              <input type="text" name="lName" id="lName" placeholder="Prenom" class="formbold-form-input" />
+                            </div>
+                          </div>
+                        </div>
+                  
+                        <div class="formbold-mb-5">
+                          <label for="guest" class="formbold-form-label">
+                            Combien de nuits voulez vous rester ?
+                          </label>
+                          <input type="number" name="guest" id="guest" placeholder="5" class="formbold-form-input" />
+                        </div>
+                  
+                        <div class="flex flex-wrap formbold--mx-3">
+                          <div class="w-full sm:w-half formbold-px-3">
+                            <div class="formbold-mb-5 w-full">
+                              <label for="date" class="formbold-form-label"> Date d'entrée </label>
+                              <input type="date" name="date" id="date" class="formbold-form-input" />
+                            </div>
+                          </div>
+                          <div class="w-full sm:w-half formbold-px-3">
+                            <div class="formbold-mb-5">
+                              <label for="time" class="formbold-form-label"> heure d'entrée</label>
+                              <input type="time" name="time" id="time" class="formbold-form-input" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="flex flex-wrap formbold--mx-3">
+                          <div class="w-full sm:w-half formbold-px-3">
+                            <div class="formbold-mb-5 w-full">
+                              <label for="date" class="formbold-form-label"> Date de sortie </label>
+                              <input type="date" name="date" id="date" class="formbold-form-input" />
+                            </div>
+                          </div>
+                          <div class="w-full sm:w-half formbold-px-3">
+                            <div class="formbold-mb-5">
+                              <label for="time" class="formbold-form-label"> heure de sortie</label>
+                              <input type="time" name="time" id="time" class="formbold-form-input" />
+                            </div>
+                          </div>
+                        </div>
+                  
+                        <div class="flex formbold-mb-5">
+                          <label for="cgu" class="formbold-form-label">Vous acceptez les CGU ? </label>
+                          <div class="flex">
+                            <input type="radio" name="radio1" id="radioButton1" class="formbold-radio" />
+                            <label for="radioButton1" class="formbold-radio-label"> Yes </label>
+                          </div>
+                          <div class="flex">
+                            <input type="radio" name="radio1" id="radioButton2" class="formbold-radio" />
+                            <label for="radioButton2" class="formbold-radio-label"> No </label>
+                          </div>
+                        </div>
+                  
+                        <div>
+                          <button class="formbold-btn">Submit</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        
+        
+    
+    </main>
+ 
+    <footer class="footer">
+        <section>
+            <div class="parallax-effect" >
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10494.129102640654!2d2.3430895!3d48.88619235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e432e04c811%3A0xc63ce48b5005548d!2sMontmartre!5e0!3m2!1sfr!2sfr!4v1700749714913!5m2!1sfr!2sfr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div> 
+        </section> 
+        <section class="footer-end">
+            <div class="container row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">visit website</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">download</a></li>
+                        <li><a href="#">changelog</a></li>
+                        <li><a href="#">github</a></li>
+                        <li><a href="#">all version</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <figure>
+                        <img src="image/AU COEUR DE MONTMARTRE.png" alt="logo pour footer">
+                    </figure>
+                </div>
+            </div>
+        </section> 
+		
+	</footer>
+    <script src="script/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("[data-fancybox='gallery']").fancybox();
+        });
+    </script>
+</body>
+</html>

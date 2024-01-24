@@ -1,0 +1,112 @@
+
+.presentation  {
+    background-color: transparent;
+    color: #ffff;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    filter: opacity(70%);
+    /* box-shadow: 0px 4px 2px 1px; */
+    border-radius: 5px;
+    width: 45%;
+  
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 4px;
+    padding-bottom: 20px;
+    border-radius: 2px;
+    margin-bottom: 40px;
+  }
+  .container-quartier {
+    width: 1200px;
+  margin: 0 auto;
+    display: block;
+    padding-top: 50%;
+    color: #ffff;
+   
+  }
+  
+  .presentation-header {
+    background-color: transparent;
+    color: #ffff;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    filter: opacity(70%);
+    /* box-shadow: 0px 4px 2px 1px; */
+    border-radius: 5px;
+  }
+  .main-content img {
+    margin-top: 40px;
+    width:  55%;
+    filter: opacity(70%);
+  }
+  .container-quartier-header p {
+    font-size: 3em;
+    margin-top: 5%;
+  }
+
+
+
+  .presentation-header h1 {
+    font-size: 3em;
+    color: burlywood;
+  }
+  .presentation h2 {
+    margin-top: 4%;
+    font-size: 2.5em;
+    color: burlywood;
+  }
+  strong {
+    color: burlywood;
+  }
+  .presentation-header p {
+    font-size: 2em;
+    margin-top: 2%;
+  }
+  .presentation p {
+    font-size: 1.7em;
+    margin-top: 4%;
+  }
+ .presentation-header h2 {
+    margin-top: 4%;
+    font-size: 2.5em;
+    color: burlywood;
+  }
+  .parallax-effect1 {
+  
+    background: url('../image/15.jpg') no-repeat;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-radius: 4px;
+  }
+
+  
+
+#diamond {
+    width: 80px; 
+    height: 80px; 
+    background: url('../image/15.jpg');
+    background-position: center;
+    margin: 3px 0 0 30px;
+    /* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    /* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+ }
